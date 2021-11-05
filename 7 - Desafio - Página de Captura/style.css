@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-bottom: 55px;
+    
+}
+
+
+
+.conteudo{
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 110px;
+    
+}
+
+.logo{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+.formulario{
+    display: block;
+    width: 96%;
+    height: 20px;
+    border-radius: 5px;
+    padding: 10px 0px 10px 15px;
+    margin: 7px 0;
+    border: none;
+}
+
+.botao {
+   width: 100%;
+   height: 50px;
+    border-radius: 5px;
+    background-color: rgb(34, 86, 255);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.botao:hover{
+     background-color: rgb(26, 76, 241);
+ 
+ }
